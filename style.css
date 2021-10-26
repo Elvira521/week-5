@@ -1,0 +1,78 @@
+body {
+    border: 1px solid rgb(31, 3, 3);
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.page-main {
+    border: 1px solid rgb(0, 255, 13);
+    display: flex;
+    flex: 1;
+}
+
+.page-article {
+
+    border: 1px solid rgb(72, 21, 168);
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 20px;
+    column-gap: 50px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+.box {
+    border: 1px solid rgb(236, 10, 21);
+    width: 550px;
+    height: 300px;
+}
+
+.wicher .strange {
+    justify-content: space-between;
+    flex-basis: 48%;
+}
+
+.emili {
+    border: 1px solid rgb(236, 18, 29);
+    flex-basis: 97%;
+
+}
+
+article {
+    border: 1px solid rgb(19, 18, 20);
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.page-aside {
+    flex: 1;
+    border: 1px solid rgb(0, 255, 13);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.page-footer {
+    flex: 0 0 content;
+    border: 1px solid rgb(226, 24, 176);
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    border: 1px solid rgb(19, 18, 20);
+    padding: 10px;
+    margin: 3px;
+}
